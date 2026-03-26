@@ -86,7 +86,7 @@ mlops-text-classifier/
 │       ├── exp1_baseline.yaml
 │       ├── exp2_higher_lr.yaml
 │       ├── exp3_longer_training.yaml
-│       └── exp4_distilbert.yaml
+│       
 ├── tests/
 │   ├── conftest.py              # Shared fixtures
 │   ├── test_data_validation.py  # Data pipeline tests
@@ -194,15 +194,7 @@ client.transition_model_version_stage("sentiment-classifier", mv.version, "Produ
 ```
 
 ## Experiments
-
-| Experiment | Model | LR | Epochs | Batch | Test F1 | Test Acc |
-|-----------|-------|-----|--------|-------|---------|----------|
-| Baseline | distilbert-base-uncased | 2e-5 | 3 | 8 | — | — |
-| Higher LR | distilbert-base-uncased | 5e-5 | 3 | 8 | — | — |
-| Longer Training | distilbert-base-uncased | 2e-5 | 5 | 8 | — | — |
-
-> **Fill in the results after running experiments.** Replace the dashes with actual metrics from your MLflow dashboard.
-
+check docs for results
 ![alt text](image.png)
 
 ## Design Decisions

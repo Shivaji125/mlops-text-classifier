@@ -1,0 +1,25 @@
+stages:
+  download:
+    cmd: python src/data/download.py
+    outs:
+      - data/raw/sentiment140_500.parquet
+      - data/raw/metadata.json
+    
+  validate:
+    cmd: python src/data/validate.py
+    deps:
+      - data/raw/sentiment140_500.parquet
+      - src/data/validate.py
+    outs:
+      - data/raw/validation_report.json
+      
+  preprocess:
+    cmd: python src/data/preprocess.py
+    deps:
+      - data/raw/sentiment140_500.parquet
+      - data/raw/validation_report.json
+      - src/data/preprocess.py
+    outs:
+      - data/processed/train.parquet
+      - data/processed/val.parquet
+      - data/processed/test.parquet

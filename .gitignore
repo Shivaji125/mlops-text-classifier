@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# DVC
+/data/raw/*.parquet
+/data/processed/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Model artifacts
+tokenizer_config/
+*.pt
+*.bin
+*.safetensors
+
+# Reports (generated)
+evaluation_report.json
+confusion_matrix.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/

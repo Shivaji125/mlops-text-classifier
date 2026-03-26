@@ -1,0 +1,160 @@
+2026-03-21 15:31:06 | INFO    | __main__ | Using CPU (training will be slower)
+2026-03-21 15:31:06 | INFO    | __main__ | Loading data...
+2026-03-21 15:31:07 | INFO    | __main__ | Data loaded — Train: 34944, Val: 7488, Test: 7489
+2026-03-21 15:31:07 | INFO    | __main__ | Loading model: bert-base-uncased
+2026-03-21 15:37:28 | INFO    | __main__ | Using CPU (training will be slower)
+2026-03-21 15:37:28 | INFO    | __main__ | Loading data...
+2026-03-21 15:37:28 | INFO    | __main__ | Data loaded — Train: 34944, Val: 7488, Test: 7489
+2026-03-21 15:37:28 | INFO    | __main__ | Loading model: bert-base-uncased
+2026-03-21 15:40:37 | INFO    | __main__ | Using CPU (training will be slower)
+2026-03-21 15:40:37 | INFO    | __main__ | Loading data...
+2026-03-21 15:40:37 | INFO    | __main__ | Data loaded — Train: 34944, Val: 7488, Test: 7489
+2026-03-21 15:40:37 | INFO    | __main__ | Loading model: bert-base-uncased
+2026-03-21 15:43:25 | INFO    | __main__ | Using CPU (training will be slower)
+2026-03-21 15:43:25 | INFO    | __main__ | Loading data...
+2026-03-21 15:43:25 | INFO    | __main__ | Data loaded — Train: 34944, Val: 7488, Test: 7489
+2026-03-21 15:43:25 | INFO    | __main__ | Loading model: distilbert/distilbert-base-uncased
+2026-03-21 15:52:49 | INFO    | __main__ | Parameters — Total: 66,955,010, Trainable: 66,955,010
+2026-03-21 15:52:49 | INFO    | __main__ | Tokenizing datasets...
+2026-03-21 15:52:58 | INFO    | __main__ | ==================================================
+2026-03-21 15:52:58 | INFO    | __main__ | Epoch 1/3
+2026-03-21 15:52:58 | INFO    | __main__ | ==================================================
+2026-03-21 15:55:07 | INFO    | __main__ |   Batch 50/4368 | Loss: 0.6962 | LR: 7.63e-07
+2026-03-21 16:16:24 | INFO    | __main__ | Using CPU (training will be slower)
+2026-03-21 16:16:24 | INFO    | __main__ | Loading data...
+2026-03-21 16:16:24 | INFO    | __main__ | Data loaded — Train: 34944, Val: 7488, Test: 7489
+2026-03-21 16:16:24 | INFO    | __main__ | Loading model: distilbert/distilbert-base-uncased
+2026-03-21 16:16:27 | INFO    | __main__ | Parameters — Total: 66,955,010, Trainable: 66,955,010
+2026-03-21 16:16:27 | INFO    | __main__ | Tokenizing datasets...
+2026-03-21 16:17:31 | INFO    | __main__ | Using CPU (training will be slower)
+2026-03-21 16:17:31 | INFO    | __main__ | Loading data...
+2026-03-21 16:17:31 | INFO    | __main__ | Data loaded — Train: 34944, Val: 7488, Test: 7489
+2026-03-21 16:17:31 | INFO    | __main__ | Loading model: distilbert/distilbert-base-uncased
+2026-03-21 16:17:34 | INFO    | __main__ | Parameters — Total: 66,955,010, Trainable: 66,955,010
+2026-03-21 16:17:34 | INFO    | __main__ | Tokenizing datasets...
+2026-03-21 16:17:41 | INFO    | __main__ | ==================================================
+2026-03-21 16:17:41 | INFO    | __main__ | Epoch 1/3
+2026-03-21 16:17:41 | INFO    | __main__ | ==================================================
+2026-03-21 16:20:04 | INFO    | __main__ |   Batch 50/4368 | Loss: 0.6962 | LR: 7.63e-07
+2026-03-21 16:39:28 | INFO    | __main__ | Using CPU (training will be slower)
+2026-03-21 16:39:28 | INFO    | __main__ | Loading data...
+2026-03-21 16:39:29 | INFO    | __main__ | Data loaded — Train: 349, Val: 75, Test: 75
+2026-03-21 16:39:29 | INFO    | __main__ | Loading model: distilbert/distilbert-base-uncased
+2026-03-21 16:39:32 | INFO    | __main__ | Parameters — Total: 66,955,010, Trainable: 66,955,010
+2026-03-21 16:39:32 | INFO    | __main__ | Tokenizing datasets...
+2026-03-21 16:39:33 | INFO    | __main__ | ==================================================
+2026-03-21 16:39:33 | INFO    | __main__ | Epoch 1/3
+2026-03-21 16:39:33 | INFO    | __main__ | ==================================================
+2026-03-21 16:42:03 | INFO    | __main__ | Epoch 1 Results — Train Loss: 0.6871 | Val Loss: 0.6612 | Val F1: 0.6530 | Val Acc: 0.6533
+2026-03-21 16:42:03 | INFO    | __main__ | New best model! Val F1: 0.6530
+2026-03-21 16:42:03 | INFO    | __main__ | ==================================================
+2026-03-21 16:42:03 | INFO    | __main__ | Epoch 2/3
+2026-03-21 16:42:03 | INFO    | __main__ | ==================================================
+2026-03-21 16:44:25 | INFO    | __main__ | Epoch 2 Results — Train Loss: 0.5836 | Val Loss: 0.5639 | Val F1: 0.7466 | Val Acc: 0.7467
+2026-03-21 16:44:25 | INFO    | __main__ | New best model! Val F1: 0.7466
+2026-03-21 16:44:25 | INFO    | __main__ | ==================================================
+2026-03-21 16:44:25 | INFO    | __main__ | Epoch 3/3
+2026-03-21 16:44:25 | INFO    | __main__ | ==================================================
+2026-03-21 16:46:53 | INFO    | __main__ | Epoch 3 Results — Train Loss: 0.4152 | Val Loss: 0.5455 | Val F1: 0.7466 | Val Acc: 0.7467
+2026-03-21 16:46:53 | INFO    | __main__ | ==================================================
+2026-03-21 16:46:53 | INFO    | __main__ | Evaluating best model on test set...
+2026-03-21 16:46:59 | INFO    | __main__ | Test Results — Acc: 0.7467 | F1: 0.7468 | Precision: 0.7471 | Recall: 0.7467
+2026-03-21 16:47:00 | INFO    | __main__ | 
+              precision    recall  f1-score   support
+
+    Negative       0.76      0.74      0.75        39
+    Positive       0.73      0.75      0.74        36
+
+    accuracy                           0.75        75
+   macro avg       0.75      0.75      0.75        75
+weighted avg       0.75      0.75      0.75        75
+
+2026-03-21 16:47:00 | INFO    | __main__ | Logging model to MLflow...
+2026-03-21 16:47:30 | INFO    | __main__ | Training complete! MLflow Run ID: 0f6049611c8842c19aaf4c5f7bb7a5f6
+2026-03-21 16:47:30 | INFO    | __main__ | Best Val F1: 0.7466 | Test F1: 0.7468
+2026-03-21 16:51:55 | INFO    | __main__ | Using CPU (training will be slower)
+2026-03-21 16:51:55 | INFO    | __main__ | Loading data...
+2026-03-21 16:51:56 | INFO    | __main__ | Data loaded — Train: 349, Val: 75, Test: 75
+2026-03-21 16:51:56 | INFO    | __main__ | Loading model: distilbert/distilbert-base-uncased
+2026-03-21 16:51:59 | INFO    | __main__ | Parameters — Total: 66,955,010, Trainable: 66,955,010
+2026-03-21 16:51:59 | INFO    | __main__ | Tokenizing datasets...
+2026-03-21 16:52:00 | INFO    | __main__ | ==================================================
+2026-03-21 16:52:00 | INFO    | __main__ | Epoch 1/3
+2026-03-21 16:52:00 | INFO    | __main__ | ==================================================
+2026-03-21 16:54:30 | INFO    | __main__ | Epoch 1 Results — Train Loss: 0.6725 | Val Loss: 0.5767 | Val F1: 0.7453 | Val Acc: 0.7467
+2026-03-21 16:54:30 | INFO    | __main__ | New best model! Val F1: 0.7453
+2026-03-21 16:54:30 | INFO    | __main__ | ==================================================
+2026-03-21 16:54:30 | INFO    | __main__ | Epoch 2/3
+2026-03-21 16:54:30 | INFO    | __main__ | ==================================================
+2026-03-21 16:56:51 | INFO    | __main__ | Epoch 2 Results — Train Loss: 0.4401 | Val Loss: 0.6267 | Val F1: 0.7453 | Val Acc: 0.7467
+2026-03-21 16:56:51 | INFO    | __main__ | ==================================================
+2026-03-21 16:56:51 | INFO    | __main__ | Epoch 3/3
+2026-03-21 16:56:51 | INFO    | __main__ | ==================================================
+2026-03-21 16:59:11 | INFO    | __main__ | Epoch 3 Results — Train Loss: 0.1879 | Val Loss: 0.7881 | Val F1: 0.7453 | Val Acc: 0.7467
+2026-03-21 16:59:11 | INFO    | __main__ | ==================================================
+2026-03-21 16:59:11 | INFO    | __main__ | Evaluating best model on test set...
+2026-03-21 16:59:17 | INFO    | __main__ | Test Results — Acc: 0.7333 | F1: 0.7291 | Precision: 0.7422 | Recall: 0.7333
+2026-03-21 16:59:17 | INFO    | __main__ | 
+              precision    recall  f1-score   support
+
+    Negative       0.70      0.85      0.77        39
+    Positive       0.79      0.61      0.69        36
+
+    accuracy                           0.73        75
+   macro avg       0.74      0.73      0.73        75
+weighted avg       0.74      0.73      0.73        75
+
+2026-03-21 16:59:17 | INFO    | __main__ | Logging model to MLflow...
+2026-03-21 16:59:46 | INFO    | __main__ | Training complete! MLflow Run ID: 1b50418e0ff448ba9f5d7b16201c82fb
+2026-03-21 16:59:46 | INFO    | __main__ | Best Val F1: 0.7453 | Test F1: 0.7291
+2026-03-21 17:00:25 | INFO    | __main__ | Using CPU (training will be slower)
+2026-03-21 17:00:25 | INFO    | __main__ | Loading data...
+2026-03-21 17:00:25 | INFO    | __main__ | Data loaded — Train: 349, Val: 75, Test: 75
+2026-03-21 17:00:25 | INFO    | __main__ | Loading model: distilbert/distilbert-base-uncased
+2026-03-21 17:00:28 | INFO    | __main__ | Parameters — Total: 66,955,010, Trainable: 66,955,010
+2026-03-21 17:00:28 | INFO    | __main__ | Tokenizing datasets...
+2026-03-21 17:02:25 | INFO    | __main__ | Using CPU (training will be slower)
+2026-03-21 17:02:25 | INFO    | __main__ | Loading data...
+2026-03-21 17:02:25 | INFO    | __main__ | Data loaded — Train: 349, Val: 75, Test: 75
+2026-03-21 17:02:25 | INFO    | __main__ | Loading model: distilbert/distilbert-base-uncased
+2026-03-21 17:02:37 | INFO    | __main__ | Parameters — Total: 66,955,010, Trainable: 66,955,010
+2026-03-21 17:02:37 | INFO    | __main__ | Tokenizing datasets...
+2026-03-21 17:02:37 | INFO    | __main__ | ==================================================
+2026-03-21 17:02:37 | INFO    | __main__ | Epoch 1/5
+2026-03-21 17:02:37 | INFO    | __main__ | ==================================================
+2026-03-21 17:04:56 | INFO    | __main__ | Epoch 1 Results — Train Loss: 0.6877 | Val Loss: 0.6649 | Val F1: 0.6533 | Val Acc: 0.6533
+2026-03-21 17:04:56 | INFO    | __main__ | New best model! Val F1: 0.6533
+2026-03-21 17:04:56 | INFO    | __main__ | ==================================================
+2026-03-21 17:04:56 | INFO    | __main__ | Epoch 2/5
+2026-03-21 17:04:56 | INFO    | __main__ | ==================================================
+2026-03-21 17:07:29 | INFO    | __main__ | Epoch 2 Results — Train Loss: 0.5763 | Val Loss: 0.5449 | Val F1: 0.7333 | Val Acc: 0.7333
+2026-03-21 17:07:29 | INFO    | __main__ | New best model! Val F1: 0.7333
+2026-03-21 17:07:29 | INFO    | __main__ | ==================================================
+2026-03-21 17:07:29 | INFO    | __main__ | Epoch 3/5
+2026-03-21 17:07:29 | INFO    | __main__ | ==================================================
+2026-03-21 17:10:01 | INFO    | __main__ | Epoch 3 Results — Train Loss: 0.3240 | Val Loss: 0.5905 | Val F1: 0.7597 | Val Acc: 0.7600
+2026-03-21 17:10:01 | INFO    | __main__ | New best model! Val F1: 0.7597
+2026-03-21 17:10:01 | INFO    | __main__ | ==================================================
+2026-03-21 17:10:01 | INFO    | __main__ | Epoch 4/5
+2026-03-21 17:10:01 | INFO    | __main__ | ==================================================
+2026-03-21 17:12:28 | INFO    | __main__ | Epoch 4 Results — Train Loss: 0.1736 | Val Loss: 0.6642 | Val F1: 0.7597 | Val Acc: 0.7600
+2026-03-21 17:12:28 | INFO    | __main__ | ==================================================
+2026-03-21 17:12:28 | INFO    | __main__ | Epoch 5/5
+2026-03-21 17:12:28 | INFO    | __main__ | ==================================================
+2026-03-21 17:14:53 | INFO    | __main__ | Epoch 5 Results — Train Loss: 0.1212 | Val Loss: 0.7039 | Val F1: 0.7597 | Val Acc: 0.7600
+2026-03-21 17:14:53 | INFO    | __main__ | ==================================================
+2026-03-21 17:14:53 | INFO    | __main__ | Evaluating best model on test set...
+2026-03-21 17:15:01 | INFO    | __main__ | Test Results — Acc: 0.7600 | F1: 0.7600 | Precision: 0.7600 | Recall: 0.7600
+2026-03-21 17:15:01 | INFO    | __main__ | 
+              precision    recall  f1-score   support
+
+    Negative       0.77      0.77      0.77        39
+    Positive       0.75      0.75      0.75        36
+
+    accuracy                           0.76        75
+   macro avg       0.76      0.76      0.76        75
+weighted avg       0.76      0.76      0.76        75
+
+2026-03-21 17:15:01 | INFO    | __main__ | Logging model to MLflow...
+2026-03-21 17:15:34 | INFO    | __main__ | Training complete! MLflow Run ID: 2abbb5a8410142078d5e67ce0c8fe021
+2026-03-21 17:15:34 | INFO    | __main__ | Best Val F1: 0.7597 | Test F1: 0.7600

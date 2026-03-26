@@ -1,0 +1,40 @@
+2026-03-20 18:25:20 | INFO    | __main__ | SPlit size - Train: 34944, Val: 7488, Test: 7489
+2026-03-20 18:25:20 | INFO    | __main__ | Train label dist: {0: 0.5017742673992674, 1: 0.4982257326007326}
+2026-03-20 19:34:53 | INFO    | __main__ | SPlit size - Train: 34944, Val: 7488, Test: 7489
+2026-03-20 19:34:53 | INFO    | __main__ | Train label dist: {0: 0.5017742673992674, 1: 0.4982257326007326}
+2026-03-20 20:08:40 | INFO    | src.data.preprocess | SPlit size - Train: 420, Val: 90, Test: 90
+2026-03-20 20:08:40 | INFO    | src.data.preprocess | Train label dist: {0: 0.5, 1: 0.5}
+2026-03-20 20:08:40 | INFO    | src.data.preprocess | SPlit size - Train: 420, Val: 90, Test: 90
+2026-03-20 20:08:40 | INFO    | src.data.preprocess | Train label dist: {0: 0.5, 1: 0.5}
+2026-03-20 20:08:40 | INFO    | src.data.preprocess | SPlit size - Train: 420, Val: 90, Test: 90
+2026-03-20 20:08:40 | INFO    | src.data.preprocess | Train label dist: {0: 0.5, 1: 0.5}
+2026-03-20 20:08:40 | INFO    | src.data.preprocess | SPlit size - Train: 420, Val: 90, Test: 90
+2026-03-20 20:08:40 | INFO    | src.data.preprocess | Train label dist: {0: 0.5, 1: 0.5}
+2026-03-20 20:10:23 | INFO    | src.data.preprocess | SPlit size - Train: 420, Val: 90, Test: 90
+2026-03-20 20:10:23 | INFO    | src.data.preprocess | Train label dist: {0: 0.5, 1: 0.5}
+2026-03-20 20:10:23 | INFO    | src.data.preprocess | SPlit size - Train: 420, Val: 90, Test: 90
+2026-03-20 20:10:23 | INFO    | src.data.preprocess | Train label dist: {0: 0.5, 1: 0.5}
+2026-03-20 20:10:23 | INFO    | src.data.preprocess | SPlit size - Train: 420, Val: 90, Test: 90
+2026-03-20 20:10:23 | INFO    | src.data.preprocess | Train label dist: {0: 0.5, 1: 0.5}
+2026-03-20 20:10:23 | INFO    | src.data.preprocess | SPlit size - Train: 420, Val: 90, Test: 90
+2026-03-20 20:10:23 | INFO    | src.data.preprocess | Train label dist: {0: 0.5, 1: 0.5}
+2026-03-21 16:14:52 | INFO    | src.data.preprocess | SPlit size - Train: 420, Val: 90, Test: 90
+2026-03-21 16:14:52 | INFO    | src.data.preprocess | Train label dist: {0: 0.5, 1: 0.5}
+2026-03-21 16:14:52 | INFO    | src.data.preprocess | SPlit size - Train: 420, Val: 90, Test: 90
+2026-03-21 16:14:52 | INFO    | src.data.preprocess | Train label dist: {0: 0.5, 1: 0.5}
+2026-03-21 16:14:52 | INFO    | src.data.preprocess | SPlit size - Train: 420, Val: 90, Test: 90
+2026-03-21 16:14:52 | INFO    | src.data.preprocess | Train label dist: {0: 0.5, 1: 0.5}
+2026-03-21 16:14:52 | INFO    | src.data.preprocess | SPlit size - Train: 420, Val: 90, Test: 90
+2026-03-21 16:14:52 | INFO    | src.data.preprocess | Train label dist: {0: 0.5, 1: 0.5}
+2026-03-21 16:23:40 | INFO    | __main__ | SPlit size - Train: 34944, Val: 7488, Test: 7489
+2026-03-21 16:23:40 | INFO    | __main__ | Train label dist: {0: 0.5017742673992674, 1: 0.4982257326007326}
+2026-03-21 16:32:38 | INFO    | __main__ | SPlit size - Train: 349, Val: 75, Test: 75
+2026-03-21 16:32:38 | INFO    | __main__ | Train label dist: {0: 0.5157593123209169, 1: 0.48424068767908307}
+2026-03-21 16:38:39 | INFO    | src.data.preprocess | SPlit size - Train: 420, Val: 90, Test: 90
+2026-03-21 16:38:39 | INFO    | src.data.preprocess | Train label dist: {0: 0.5, 1: 0.5}
+2026-03-21 16:38:39 | INFO    | src.data.preprocess | SPlit size - Train: 420, Val: 90, Test: 90
+2026-03-21 16:38:39 | INFO    | src.data.preprocess | Train label dist: {0: 0.5, 1: 0.5}
+2026-03-21 16:38:39 | INFO    | src.data.preprocess | SPlit size - Train: 420, Val: 90, Test: 90
+2026-03-21 16:38:39 | INFO    | src.data.preprocess | Train label dist: {0: 0.5, 1: 0.5}
+2026-03-21 16:38:39 | INFO    | src.data.preprocess | SPlit size - Train: 420, Val: 90, Test: 90
+2026-03-21 16:38:39 | INFO    | src.data.preprocess | Train label dist: {0: 0.5, 1: 0.5}

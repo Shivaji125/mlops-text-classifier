@@ -1,0 +1,13 @@
+2026-03-22 12:42:24 | INFO    | __main__ | Evaluating run: 0f6049611c8842c19aaf4c5f7bb7a5f6
+2026-03-22 12:42:24 | INFO    | __main__ | Run metrics: {'test_accuracy': 0.7467, 'test_f1': 0.7468, 'test_precision': 0.7471, 'test_recall': 0.7467}
+2026-03-22 12:42:24 | INFO    | __main__ | Gate 1: Checking absolute thresholds...
+2026-03-22 12:42:24 | INFO    | __main__ |  PASSED: test_f1 = 0.7468 >= 0.6
+2026-03-22 12:42:24 | INFO    | __main__ |  PASSED: test_accuracy = 0.7467 >= 0.6
+2026-03-22 12:42:24 | INFO    | __main__ | Gate 2: Checking regression vs production model...
+2026-03-22 12:42:24 | INFO    | __main__ |  No production model found - skipping regression checks
+2026-03-22 12:42:24 | INFO    | __main__ | Gate 3: Checking for overfitting...
+2026-03-22 12:42:24 | INFO    | __main__ |  PASSED: val-test F1 gap = 0.0002 < 0.05
+2026-03-22 12:42:24 | INFO    | __main__ | ==================================================
+2026-03-22 12:42:24 | INFO    | __main__ | ALL QUALITY GATES PASSED - model is ready for deployment
+2026-03-22 12:42:24 | INFO    | __main__ | Gates passed: 3 / 3
+2026-03-22 12:42:24 | INFO    | __main__ | ==================================================

@@ -1,0 +1,18 @@
+model:
+  name: "distilbert/distilbert-base-uncased"
+  num_labels: 2
+  max_length: 128
+training:
+  epochs: 5              # More epochs
+  learning_rate: 2.0e-5
+  batch_size: 8       # Larger batch
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  seed: 42
+data:
+  train_path: "data/processed/train.parquet"
+  val_path: "data/processed/val.parquet"
+  test_path: "data/processed/test.parquet"
+mlflow:
+  experiment_name: "sentiment-classifier"
+  tracking_uri: "mlruns"

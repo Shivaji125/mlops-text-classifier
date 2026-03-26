@@ -1,0 +1,62 @@
+name: Train & Deploy Pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      config:
+        description: "Training config file"
+        required: true
+        default: "configs/experiments/exp1_baseline.yaml"
+        type: choice
+        options:
+          - configs/experiments/exp1_baseline.yaml
+          - configs/experiments/exp2_higher_lr.yaml
+          - configs/experiments/exp3_longer_training.yaml
+        
+jobs:
+  train:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run data pipeline
+        run: |
+          python src/data/download.py
+          python src/data/validation.py
+          python src/data/preprocess.py
+      
+      - name: Train model
+        run: |
+          python src/training/train.py --config %{{ github.event.inputs.config }}
+      
+      - name: Run quality gates
+        run: |
+          # Get the latest run ID
+          RUN_ID=$(python -c "
+          import mlflow
+          mlflow.set_tracking_uri('mlruns')
+          exp = mlflow.get_experiment_by_name('sentiment-classifier')
+          runs = mlflow.search_runs([exp.experiment_id], order_by=['start_time DESC'], max_results=1)
+          print(runs.iloc[0]['run_id'])
+          ")
+          echo "Evaluating run: $RUN_ID"
+          python src/training/evaluate.py --run-id $RUN_ID
+      
+      - name: Upload MLflow artifacts
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mlflow-artifacts
+          path: mlruns/
+          retention-days: 30

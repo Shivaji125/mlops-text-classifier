@@ -1,0 +1,57 @@
+schema: '2.0'
+stages:
+  download:
+    cmd: python src/data/download.py
+    outs:
+    - path: data/raw/metadata.json
+      hash: md5
+      md5: c11e0a97589fe25ba8ed55975a6c08af
+      size: 189
+    - path: data/raw/sentiment140_500.parquet
+      hash: md5
+      md5: dff699f411731c2d737e432813c8059c
+      size: 45149
+  validate:
+    cmd: python src/data/validate.py
+    deps:
+    - path: data/raw/sentiment140_500.parquet
+      hash: md5
+      md5: dff699f411731c2d737e432813c8059c
+      size: 45149
+    - path: src/data/validate.py
+      hash: md5
+      md5: 172b29d6429847325cf385c24c9b2cf0
+      size: 3372
+    outs:
+    - path: data/raw/validation_report.json
+      hash: md5
+      md5: 6630a47e39bfb2bc39cb22d9699c7ad2
+      size: 319
+  preprocess:
+    cmd: python src/data/preprocess.py
+    deps:
+    - path: data/raw/sentiment140_500.parquet
+      hash: md5
+      md5: dff699f411731c2d737e432813c8059c
+      size: 45149
+    - path: data/raw/validation_report.json
+      hash: md5
+      md5: 6630a47e39bfb2bc39cb22d9699c7ad2
+      size: 319
+    - path: src/data/preprocess.py
+      hash: md5
+      md5: 820a0bb17027c8a69be3decde45072e0
+      size: 2441
+    outs:
+    - path: data/processed/test.parquet
+      hash: md5
+      md5: 70de6287d268d94040a1f812deaf334f
+      size: 6191
+    - path: data/processed/train.parquet
+      hash: md5
+      md5: 8e9a4c0dfece0098f5611a415f6c5f10
+      size: 21084
+    - path: data/processed/val.parquet
+      hash: md5
+      md5: 652375e96e617b107b25057c8028d8bd
+      size: 6102
